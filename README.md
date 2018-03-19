@@ -17,9 +17,11 @@
 
 - 运行程序的主界面
 
-![程序的主界面]
-(https://github.com/zmdsjtu/Hand_gesture/tree/master/snapshot/main.png)
 
+
+![程序的主界面](https://github.com/zmdsjtu/Hand_gesture/tree/master/snapshot/main.png)
+
+![Technology-IME-Result](http://www.linyibin.cn/images/Technology-IME-Result-Wo.png)
 
 
 ## Reference
