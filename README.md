@@ -4,7 +4,7 @@
 
 - 基于手势的bouding box和类别进行特征点定位达到分割的目的
 
-Requirements
+# Requirements
 
 - [OpenCV3.1 + contribute](http://opencv.org/downloads.html)
 
@@ -17,8 +17,8 @@ Requirements
 
 - 运行程序的主界面
 
-![程序的主界面](https://github.com/zmdsjtu/Hand_gesture/tree/master/snapshot/main.png)
-
+![程序的主界面]
+(https://github.com/zmdsjtu/Hand_gesture/tree/master/snapshot/main.png)
 
 
 
