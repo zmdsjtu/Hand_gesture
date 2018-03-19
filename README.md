@@ -14,9 +14,11 @@ Requirements
 
 
 ## 程序运行展示
+
 - 运行程序的主界面
 
 ![程序的主界面](https://github.com/zmdsjtu/Hand_gesture/tree/master/snapshot/main.png)
+
 
 
 
