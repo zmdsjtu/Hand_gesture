@@ -19,7 +19,7 @@
 
 
 
-![Demo](https://github.com/zmdsjtu/Hand_gesture/tree/master/snapshot/main.png)
+![Demo](/snapshot/main.png)
 
 
 ## Reference
