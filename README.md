@@ -26,13 +26,21 @@
 [视频Demo](/snapshot/video_demo.avi)
 
 - 特征点定位效果
+
 手掌
+
 ![palm](/snapshot/palm.png)
+
 拳头
+
 ![fist](/snapshot/fist.png)
+
 胜利
+
 ![scissor](/snapshot/scissor.png)
+
 点赞
+
 ![thumb](/snapshot/thumb.png)
 
 ## 程序操作说明
