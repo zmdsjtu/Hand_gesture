@@ -18,9 +18,11 @@
 - 运行程序的主界面
 
 
+![Demo](/snapshot/main2.png)
 
-![Demo](/snapshot/main.png)
+- 程序视频演示demo
 
+![Demo](/snapshot/video_demo.avi)
 
 ## Reference
 
