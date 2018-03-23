@@ -27,19 +27,19 @@
 
 - 特征点定位效果
 
-手掌
+手掌-68点
 
 ![palm](/snapshot/palm.png)
 
-拳头
+拳头-14点
 
 ![fist](/snapshot/fist.png)
 
-胜利
+胜利-14点
 
 ![scissor](/snapshot/scissor.png)
 
-点赞
+点赞-14点
 
 ![thumb](/snapshot/thumb.png)
 
@@ -77,6 +77,41 @@
 - MedianFlow算法效率较高，不缩放的图片单帧追踪时间量级是10ms
 - 基于bouding box的特征点回归可以定位到各手势特定位置，诸如单个指尖、掌心等等
 - 基于特征点的分割相较于基于肤色的分割可以更鲁棒地应对光照条件
+
+=================其他辅助程序==================
+## 样本采集
+[Collection文件夹](/src/Collection)
+
+
+按下对应按键可以采集到对应手势的文件目录
+视频录制类似
+
+![Collection](/snapshot/Collection.png)
+
+## 手势检测标注程序
+[Label文件夹](/src/Label)
+
+
+标注图片里手所在的矩形框，并存储到crop文件夹
+
+![Label](/snapshot/Label.png)
+
+## 特征点标注
+利用dlib的imglab工具进行标注
+以手掌为例
+
+![Palm_points](/snapshot/Palm_points.png)
+
+## 检测模型训练
+
+[Train_detection](/src/Train_detection)
+
+
+
+## 特征点回归模型训练
+
+[Train_landmark](/src/Train_landmark)
+
 
 
 ## Reference
