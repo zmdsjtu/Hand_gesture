@@ -22,7 +22,7 @@
 
 - 程序视频演示demo
 
-![Demo](/snapshot/video_demo.avi)
+[视频Demo](/snapshot/video_demo.avi)
 
 ## Reference
 
