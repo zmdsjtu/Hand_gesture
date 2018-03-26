@@ -43,6 +43,10 @@
 
 ![thumb](/snapshot/thumb.png)
 
+基于特征点可以进行很多拓展，例如画出骨架
+
+![skeleton](/snapshot/skeleton.png)
+
 ## 程序操作说明
 
 - 控制台输入视频所在目录
