@@ -1,5 +1,7 @@
 # 手势识别与分割
 
+支持手掌、拳头、胜利、点赞四种手势的识别与分割
+
 - 基于fhog特征的手势提取和识别
 
 - 基于手势的bouding box和类别进行特征点定位达到分割的目的
@@ -11,15 +13,20 @@
 
 - [dlib19.9](http://dlib.net/)
 
+
+## 程序运行效率
 
 
+- 帧率为35fps+
+环境为Intel I5-4210M处理器，单线程单帧图片28ms
+其中检测耗时18ms,追踪2ms，特征点定位5ms,其余界面及图像操作3ms
 
 ## 程序运行展示
 
 - 运行程序的主界面
 
 
-![Demo](/snapshot/main2.png)
+![Demo](/snapshot/main3.png)
 
 - 程序视频演示demo
 
@@ -120,9 +127,9 @@
 
 ## Reference
 
-1. [dlib环境配置](http://blog.csdn.net/zmdsjtu/article/details/53454071)
+1. [dlib环境配置（之前写的博客）](http://blog.csdn.net/zmdsjtu/article/details/53454071)
 
-2. [OpenCV contribute环境配置](http://blog.csdn.net/zmdsjtu/article/details/78069739)
+2. [OpenCV contribute环境配置（之前写的博客）](http://blog.csdn.net/zmdsjtu/article/details/78069739)
 
 3. Object detection with discriminatively trained partbased models. IEEE Trans. PAMI, 32(9):1627–1645, 2010.（手势定位与识别，fHog特征）
 4. One Millisecond Face Alignment with an Ensemble of Regression Trees by Vahid Kazemi and Josephine Sullivan, CVPR 2014.（特征点定位）
